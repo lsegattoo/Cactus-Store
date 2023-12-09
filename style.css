@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Raleway:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Raleway:wght@100;200;300;400;500;600&display=swap');
-.logomarca{
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+.logomarca {
     width: 100px;
 }
 
@@ -15,22 +18,206 @@
     border-radius: 65px;
 }
 
-.links-navegacao{
+.links-navegacao {
     list-style: none;
     display: flex;
     flex-direction: row;
-    }
-    li a {
-        font-size: 23px;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 600;
-        padding: 16px;
-        font-family: 'Raleway'
-    }
+}
 
-    .entrar:hover{
-        box-shadow:0px 0px 1px violet;
-    }
+li a {
+    font-size: 23px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 16px;
+    font-family: 'Hanuman';
+}
 
-    
+.marcas-amamos {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peca-principal-titulo {
+    text-align: center;
+    flex-direction: column;
+    margin-top: 6%;
+    font-family: 'Karla';
+    padding-left: 4%;
+}
+
+.camiseta-principal{
+    width: 650px;
+    padding: 12px;
+}
+
+.peca-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-lateral{
+    padding-left: 4%;
+    font-size: x-large;
+}
+.valor-camiseta {
+    text-align: right;
+    padding-right: 28%;
+    font-family: 'Karla';
+    }
+.valor{
+    padding: 5px;
+    background-color:rgb(192, 144, 236);
+    border-radius: 12px;
+}
+
+.quantidade-camisetas{
+    text-align: right;
+    padding-right: 28%;
+    font-family: 'Karla';
+}
+
+.quantidade-de-pecas {
+    width: 60px;
+    border-radius: 8px;
+    border-color: blueviolet;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tamanhos{
+    text-align: right;
+    padding-right: 28%;
+    font-family: 'Karla';
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.tamanhoP{
+    background-color:blueviolet;
+    color:white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color:rgb(128, 2, 246);
+}
+
+.tamanhoP:hover{
+    box-shadow: 1px 1px 15px #0000003a;
+    transform:translateY(-5px)
+}
+
+
+.tamanhoM{
+    background-color:blueviolet;
+    color:white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color: rgb(132, 0, 255);
+}
+
+.tamanhoM:hover{
+    box-shadow: 1px 1px 15px #0000003a;
+    transform:translateY(-5px)
+}
+
+.tamanhoG{
+    background-color:blueviolet;
+    color:white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color: rgb(132, 0, 255);
+}
+
+.tamanhoG:hover{
+    box-shadow: 1px 1px 15px #0000003a;
+    transform:translateY(-5px)
+}
+
+.tamanhoGG{
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color: rgb(132, 0, 255);
+}
+
+.tamanhoGG:hover{
+    box-shadow: 1px 1px 15px #0000003a;
+    transform:translateY(-5px)
+}
+
+.cor{
+    text-align: right;
+    padding-right: 28%;
+    font-family: 'Karla';
+}
+.botoes-cores{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.Botao-Cor-Preto{
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color: blueviolet;
+}
+
+.Botao-Cor-Preto:hover{
+    box-shadow: 1px 1px 15px #0000003a ;
+    transform: translateY(-5px);
+}
+
+.Botao-Cor-Branco{
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    border-style:solid;
+    border-color: rgb(132, 0, 255);
+    text-decoration: line-through red 2px;
+}
+
+.Botao-Cor-Branco:hover{
+    box-shadow: 1px 1px 15px #0000003a ;
+    /* transform: translateY(-5px); */
+}
+
+
+.relacionados{
+    text-align: center;
+    margin-bottom: 12%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+  
+
+.rodape{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+}

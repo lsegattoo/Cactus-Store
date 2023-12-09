@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cactus Store</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./Icons/fontawesome/css/brands.css">
-    <link rel="stylesheet" href="./Icons/fontawesome/css/solid.css">
-    <link rel="stylesheet" href="./Icons/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="./Icons/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="./Icons/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="./Icons/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./Imagens-Site/">
   </head>
   <body>
     <header>
-        <nav class="menu">
-            <img class="logomarca" src="./Icons/Logo.png" alt="" />
-            <ul class="links-navegacao">
-              <li class="entrar">
-                <a href="" class="entrar">Entrar</a>
-              </li>
-              <li>
-                <a href="" class="registrar">Cadastrar</a>
-              </li>
-            </ul>
-          </nav>
+      <nav class="menu">
+        <img class="logomarca" src="./Icons/Logo.png" alt="" />
+        <ul class="links-navegacao">
+          <li class="entrar">
+            <a href="" class="entrar">Entrar</a>
+          </li>
+          <li>
+            <a href="" class="registrar">Cadastrar</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-         <div class="marcas-amamos">
-            <h2>Marcas que amamos </h2>
-         </div>
-         <!-- Carrousel -->
-         <div class="carousel">
+    <div class="marcas-amamos">
+      <h2>Marcas que amamos</h2>
+    </div>
+    <!-- Carrousel  
+          <div class="carousel">
             <input type="radio" name="carousel" id="slide1" checked>
             <input type="radio" name="carousel" id="slide2">
             <input type="radio" name="carousel" id="slide3">
@@ -48,16 +49,50 @@
               <label for="slide3"></label>
             </div>
           </div>
-          <!-- Carrousel -->
-
-          <div class="titulo-camiseta">
-            <h2>Camiseta de Esqueleto </h2>
-          </div>
-          <div class="valor-camiseta">
-            <h3>R$89.90</h3>
-          </div>
-          <div class="quantidade">
-            <h4>Quantidade</h4>
-          </div>
+            -->
+<div class="menus">
+  <div class="peca-principal-titulo">
+      <h2>T-Shirt Skeleton Hand peace</h2>
+    <img class="camiseta-principal" src="./Imagens-Site/Camiseta 1.png" alt="">
+  </div>
+  <div class="menu-lateral">
+    <div class="valor-camiseta">                  
+      <h3 class="valor">R$89.90</h3>
+    </div>
+    <div class="quantidade-camisetas">
+      <h3>Quantidade:</h3>
+      <input class="quantidade-de-pecas" type="number" max="10" min="0"
+      onkeypress="return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 48 && event.charCode <= 57">
+    </div> 
+    
+    <div class="tamanhos">
+      <h3>Tamanhos:</h3>
+      <div class="botoes">
+        <button class="tamanhoP">P</button>
+        <button class="tamanhoM">M</button>
+        <button class="tamanhoG">G</button>
+        <button class="tamanhoGG">GG</button>
+      </div>
+    </div>
+    
+    <div class="cor">
+      <h3>Cores:</h3>
+      <div class="botoes-cores">
+        <button class="Botao-Cor-Branco">Branco</button>
+        <button class="Botao-Cor-Preto">Preto</button>
+      </div>
+    </div>
+    <!-- botões de cor -->
+  </div>
+    
+  </div>
+  <div class="relacionados">
+    <h2>Relacionados</h2>
+  </div>
+  
+    <div class="completeseulook"></div>
   </body>
+  <footer class="rodape">
+    <h1>suporte</h1>
+  </footer>
 </html>
