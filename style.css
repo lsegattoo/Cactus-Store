@@ -23,11 +23,13 @@ header{
     margin: 0px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     background-color: blueviolet;
     border-radius: 65px;
+    justify-content: space-between;
 }
+
+
 
 
 .entrar{
@@ -48,14 +50,53 @@ header{
     transform: translateY(-5px);
 }
 
+.outlet{
+    color: white;
+    transition: 0.5s;
+}
+
+.outlet:hover{
+    transform: translateY(-5px);
+}
+
+.linhas{
+    color: white;
+    transition: 0.5s;
+}
+
+.linhas:hover{
+    transform: translateY(-5px);
+}
+
+.novidades{
+    color: white;
+    transition: 0.5s;
+}
+
+.novidades:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
+
+.links-navegacao div{
+    display: flex;
+}
+
 
 
 .links-navegacao {
+    width: 62%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
 
 li a {
@@ -474,7 +515,7 @@ footer {
 
 .redes-sociais {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 8px;
     font-size: 22px;
     font-weight: 500;
@@ -502,3 +543,52 @@ footer {
     padding-bottom: 16px;
     font-family: 'karla';
 }
+
+/* .suporte{
+    margin-right: 50%;
+    padding-bottom: 30px;
+} */
+
+.titulo-suporte{
+    padding-bottom: 5%;
+    font-family: 'Varela Round', sans-serif;
+    color: #f5f5f5;
+}
+
+.conteudo-suporte{
+    display: flex;
+    flex-direction: column;
+    font-family: 'karla';
+    color: white;
+    text-decoration: none;
+    }
+
+    
+    
+    .titulo-informacoes{
+        padding-bottom: 5%;
+        font-family: 'Varela Round', sans-serif;
+        color: #f5f5f5;
+    }
+    
+    .conteudo-informacoes{
+        display: flex;
+        flex-direction: column;
+        font-family: 'karla';
+        color: white;
+        text-decoration: none;
+        }
+
+        .titulo-colecoes{
+            padding-bottom: 5%;
+            font-family: 'Varela Round', sans-serif;
+            color: #f5f5f5;
+        }
+        
+        .conteudo-colecoes{
+            display: flex;
+            flex-direction: column;
+            font-family: 'karla';
+            color: white;
+            text-decoration: none;
+            }
